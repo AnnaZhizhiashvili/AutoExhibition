@@ -1,17 +1,6 @@
 // () 
 
-	$(document).ready(function(){
-  $('.slider').slick({
-	  infinite: true,
-	  speed: 500,
-	  cssEase: 'linear',
-	  type: true,
-	  default: true,
-	  prevArrow: $('.right-arrow'),
-	  nextArrow: $('.left-arrow')
-  
-  });
-});
+
 	
 
 
@@ -45,6 +34,20 @@ const navClick = () => {
 	});
 };
 navClick();
+
+
+	$(document).ready(function(){
+  $('.slider').slick({
+	  infinite: true,
+	  speed: 500,
+	  cssEase: 'linear',
+	  type: true,
+	  default: true,
+	  prevArrow: $('.right-arrow'),
+	  nextArrow: $('.left-arrow')
+  
+  });
+});
 
 // const onScroll = () => {
 // 	const text = document.querySelector(".main__container--text");
