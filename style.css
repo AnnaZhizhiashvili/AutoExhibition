@@ -10,7 +10,7 @@
 
 
 body {
-    overflow-x: hidden;
+
     font-family: 'Fira Sans', sans-serif;
 
 }
@@ -28,6 +28,7 @@ a {
 
 .home {
     position: relative;
+    overflow: hidden;
 }
 .slide {
     width: 100%;
@@ -375,6 +376,9 @@ animation: fadeIn .4s ease-out forwards;
         background-image: url(images/way.png);
         background-repeat: no-repeat;
         position: relative;
+}
+.m-boxes {
+    margin: 0 auto;
 }
 
 
@@ -964,6 +968,10 @@ margin-top: 350px;
         font-size: 11px;
         margin-top: 371px;
     }
+
+    .left-side input, textarea {
+    width: 302px;
+}
   
 
 }
