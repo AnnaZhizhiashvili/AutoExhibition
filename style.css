@@ -332,7 +332,6 @@ animation: fadeIn .4s ease-out forwards;
 .box {
     background-color: #E8E8E8;
     display: inline-block;
-    width: 100px;
     width: 219px;
     height: 219px;
     padding: 56px;
@@ -584,6 +583,7 @@ textarea {
     transition: all .2s ease;
     margin-right: 40px;
     margin-top: 8px;
+    height: 37px;
 }
 .btn-div {
     text-align: center;
@@ -759,6 +759,9 @@ margin-top: 350px;
 
 
  @media only screen and (max-width: 768px){
+        .first-grid {
+            padding-bottom: 14px;
+        }
         .enviroment {
               margin-top: 40px;
         }
@@ -769,9 +772,13 @@ margin-top: 350px;
         .contact-container {
             display: flex;
             flex-direction: column;
+            width: unset;
         }
         .first-grid {
             order: 1;
+        }
+        .gender{
+            padding: 10px;
         }
 
         .buy, .modify {
@@ -853,7 +860,7 @@ margin-top: 350px;
     }
        
         .second-grid h4 {
-            margin: 7px 0 3px 0;
+            margin: 7px 0 12px 0;
 }
         .contact-container {
             bottom: -256px;
@@ -885,6 +892,13 @@ margin-top: 350px;
         .gender {
              align-items: center; 
              margin-top: 0px;
+        }
+
+        .gender-container {
+                display: flex;
+        }
+        .gender label:not(:last-child){
+            margin-right: 17px;
         }
         .features {
             align-items: center;
@@ -972,6 +986,11 @@ margin-top: 350px;
     .left-side input, textarea {
     width: 204px
 }
+    .box {
+        width: 241px;
+        height: 241px;
+
+    }
   
 
 }
