@@ -776,8 +776,17 @@ margin-top: 350px;
         .contact-container {
             display: flex;
             flex-direction: column;
-            width: unset;
+            width: 84%;
+
         }
+        .left-side {
+            padding: 16px;
+        }
+        .left-side input, .left-side textarea {
+            width: 100%;
+        }
+
+
         .first-grid {
             order: 1;
         }
@@ -787,6 +796,7 @@ margin-top: 350px;
 
         .buy, .modify {
             margin-right: 0;
+            margin-bottom: 12px;
         }
         .right-side-2 p {
         margin-top: 16px;
@@ -816,6 +826,7 @@ margin-top: 350px;
         }
         .main__container--boxes {
             flex-direction: column;
+            align-items: center;
         }
 
         .main__container--boxes a {
@@ -902,7 +913,7 @@ margin-top: 350px;
                 display: flex;
         }
         .gender label:not(:last-child){
-            margin-right: 17px;
+            margin-right: 9px;
         }
         .features {
             align-items: center;
@@ -987,9 +998,7 @@ margin-top: 350px;
         margin-top: 371px;
     }
 
-    .left-side input, textarea {
-    width: 204px
-}
+    
     .box {
         width: 241px;
         height: 241px;
